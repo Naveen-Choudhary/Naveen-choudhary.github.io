@@ -213,7 +213,7 @@
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa quas rerum
                     officiis obcaecati labore
                     non.</p>
-                <form action="contact-form-handler.php" method="POST">
+                <form action="contact-form-handler.php" method="POST" id="contact-from">
                     <div class="form-group">
                         <div class="input-group input-group-lg">
                             <div class="input-group-prepend">
@@ -221,7 +221,7 @@
                                     <i class="fas fa-user"></i>
                                 </span>
                             </div>
-                            <input type="text" type="text" class="form-control bg-dark text-white"
+                            <input type="text" name="name" class="form-control bg-dark text-white"
                                 placeholder="Enter Name">
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                                     <i class="fas fa-envelope"></i>
                                 </span>
                             </div>
-                            <input type="email" type="text" class="form-control bg-dark text-white"
+                            <input type="email" name="email" class="form-control bg-dark text-white"
                                 placeholder="Enter Email">
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                             </div>
-                            <textarea type="text" type="text" class="form-control bg-dark text-white"
+                            <textarea type="text" name="message" class="form-control bg-dark text-white"
                                 placeholder="Your Message"></textarea>
                         </div>
                     </div>
